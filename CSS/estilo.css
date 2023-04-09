@@ -10,7 +10,7 @@ body{
 }
 
 
-@media (  max-width: 900px){
+@media (  max-width: 800px){
 
 
 
@@ -30,34 +30,31 @@ body{
        
     }
 
- .ctt{
+  .nav-bar ul{
 
     display: flex;
-    flex-direction: column;
-    min-width: 80%;
- }
-  
+    flex-direction: row;
+    text-align: center;
+padding: 0;
+  }
+  .nav-bar li{
+    max-width: 20%;
 
-    .nav-bar ul{
+  }
+
+  .nav-bar a{
+    font-size: 18px;
+    letter-spacing: normal;
+    
+  }
+
+
+    .ctt{
 
         display: flex;
-        text-align: center;
-    }
-
-    .nav-bar li{
-
-        min-width: 12%;
-
-    }
-
-  
-
-    .nav-bar a{
-        font-size: 17px;
-        letter-spacing: normal;
-
-
-    }
+        flex-direction: column;
+        min-width: 80%;
+     }
 
 
 }
