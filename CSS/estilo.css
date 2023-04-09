@@ -10,6 +10,55 @@ body{
 }
 
 
+@media (  max-width: 900px){
+
+
+    .row{
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .col-2, .col-1-1, .col-2-2, .col-3-3{
+
+        min-width: 93%;
+        text-align: center;
+        
+       
+    }
+
+   
+
+    .nav-bar ul{
+
+   display: flex;
+   flex-direction: row;
+   padding-left: 3%;
+    }
+
+
+    .nav-bar li{
+
+        text-align: center;
+        min-width: 15%;
+
+
+    }
+
+    .nav-bar a{
+
+        font-size: 20px;
+        letter-spacing: normal;
+        
+
+    }
+
+ 
+
+}
+
+
 header{
 
     width: 100%;
