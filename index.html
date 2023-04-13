@@ -7,11 +7,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/normalize.css">
 <script src="https://kit.fontawesome.com/dc3501a193.js" crossorigin="anonymous"></script>
-
-
-<link rel="stylesheet" href="CSS/estilo.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"><link rel="stylesheet" href="CSS/estilo.css">
 
     <title> Meu Portfolio </title>
 
@@ -19,21 +17,18 @@
 
 <header class="main-header">
 
+    <nav class="nav-bar nav-bar-expand-lg ">
 
-<nav class="nav-bar">
+    
+        <ul class="nav-bar-nav">
+            <li class="nav-item nav-link"> <a href="index.html"> Sobre </a> </li>
+            <li class="nav-item nav-link"> <a href="pjt.html">  Projetos </a> </li class="nav-item nav-link">
+            <li class="nav-item nav-link"> <a href="habilidades.html"> Habilidades </a> </li class="nav-item nav-link">
+            <li class="nav-item nav-link"> <a href="ctt.html"> Contato </a> </li>
+        </ul> 
+ 
 
-
-    <ul>
-        <li>
-        <a href="index.html">Sobre mim</a></li>
-        <li><a href="pjt.html">Projetos</a></li>
-        <li><a href="habilidades.html">Habilidades</a></li>
-        <li><a href="ctt.html">Contato</a></li>
-
-    </ul>
-
-</nav>
-
+    </nav>
          
 </header>
 
@@ -41,31 +36,49 @@
 
 <body>
 
-    <p class="main-texto"> 
+<div class="container">
 
+    <div class="row">
+
+
+
+     <div class=" col">
 
         <img class="avatar" src="imagens-teste/ruth.jpeg" alt="avatar">
-        
-        <b> Hello World!</b> <i class="fa-solid fa-comment-dots"></i>
-        <br>
-         Eu me chamo Ruth e sou <strong>Web Developer Front End</strong> !
-         <br>
-         <b>role a tela para me conhecer</b> ou veja alguns dos meus projetos e habilidades <br> navegando no menu acima!
+
+               <h2> Hello World! <i class="fa-solid fa-comment-dots"></i></h2>
+       <p> 
+               Eu me chamo Ruth e sou <strong>Web Developer Front End!</strong>
+                 <br>
+             <b>role a tela para me conhecer</b> ou veja alguns <br> dos meus projetos e habilidades navegando no menu acima!
        <br>
          <a href="ctt.html"> Click aqui para entrar em Contato! </a>
-    </p>
+       </p>
+
+     </div>
+
+
+    </div>
+
+    <div class="row">
+
     
-    <p class="main-texto"> 
-    
-            <b> Sobre mim! </b> <i class="fa-solid fa-magnifying-glass"></i>
-            <br>
-            
+     <div class="col text-center">
+
+        <h2> Sobre mim! <i class="fa-solid fa-magnifying-glass"></i></h2>
+
+      <p>             
             Tenho 23 anos, nasci em Natal- RN e sou graduanda no Bacharelado Interdisciplinar em Humanidades da UFRN, onde fui presidente do Centro Acadêmico, entretanto também cursei parcialmente
             o curso técnico em informática no IFRN, onde me apaixonei por desenvolvimento web e a área tech! Desde então estudo novas linguagens e ferramentas, da área, de forma independente
             sempre buscando me atualizar e especializar com o que o mercado pede, além de atuar como Freela ;D
-    </p>
+      </p>
 
-        
+     </div>
+
+    </div>
+    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
     
