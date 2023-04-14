@@ -28,38 +28,6 @@ h2{
     text-align: center;
 }
 
-
-
-@media screen and ( max-width: 450px){
-
-
- 
-
-    .nav-bar ul li{
-
-        background: none;
-        border: none;
-        font-size: 18px;
-        margin: 0;
-        padding-left:1px ;
-
-        text-align: center;
-    }
-
-    .nav-bar ul li a{
-
-        color: #49bf9d;
-    }
-
-    .nav-bar ul li a:hover{
-
-        color:aliceblue;
-
-    }
-
-
-}
-
 .nav-bar{
 
     background-color: #19376D;
@@ -72,10 +40,10 @@ h2{
 .nav-bar li{
     display: inline;
     background-color: #49bf9d;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight: bold;
     font-size: 18px;
-    padding: 10px;
+    padding: 15px;
     margin-left: 1%;
 }
 
@@ -96,7 +64,7 @@ h2{
     border-radius: 50%;
     width: 200px;
     width:250px;
-    margin: 9%;
+    margin: 10%;
     float: left;
   
 }
