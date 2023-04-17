@@ -29,18 +29,6 @@ h2{
     text-align: center;
 }
 
-@media screen and (max-width: 730px) {
-    
-
-.nav-list ul li{
-
-    display: none;
-
-}
-
-
-}
-
 .logo{
 
     display: flex;
