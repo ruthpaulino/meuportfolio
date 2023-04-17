@@ -127,8 +127,8 @@ h2{
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
-        padding-left: 1%;
-        padding-right: 1%;
+        padding-left: 5%;
+        padding-right: 5%;
 
     }
     .mobile-menu .nav-item {
@@ -211,7 +211,7 @@ h2{
     display: inline-block;
     font-size: 2em;
     color: #49bf9d;
-    margin-left: 2%;
+    margin-left: 1%;
 
 }
 
