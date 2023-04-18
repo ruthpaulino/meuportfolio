@@ -38,6 +38,7 @@ h2{
 .logo h1{
     color: aliceblue;
 }
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
