@@ -255,9 +255,14 @@ text-decoration: none;
     
 }
 
+.container{
+
+    padding-top: 5rem;
+}
+
 #sobre{
 
-    padding-top: 80px;
+    padding-top: 5rem;
 }
 
 
